@@ -18,7 +18,7 @@ if __name__ == "__main__":
         "openAIKEY"
         )
 
-    res= agent.search("Can you find a document that uses chemicals for mining?")
+    res= agent.search("Find patent filings related to secure and scalable filing systems for medical records.")
     print(res)
 ```
 
