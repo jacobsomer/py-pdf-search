@@ -12,7 +12,7 @@ Here are two examples demonstrating the usage of PY-PDF-SEARCH:
 
 ### Example 1: NLP Search
 
-````
+```python
 from pdfagent import PDFAgent
 import os
 
@@ -24,13 +24,11 @@ if __name__ == "__main__":
 
     res= agent.search("Can you find a document that uses chemicals for mining?")
     print(res)
-
-    ```
-````
+```
 
 ### Example 2: Cosign Similarity Search
 
-````
+```python
 from pdfagent import PDFAgent
 import os
 
@@ -42,6 +40,4 @@ if __name__ == "__main__":
 
     res= agent.search("Can you find a document that uses chemicals for mining?")
     print(res)
-
-    ```
-````
+```
