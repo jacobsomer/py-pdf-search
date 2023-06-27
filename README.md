@@ -34,7 +34,7 @@ if __name__ == "__main__":
         "openAIKEY"
         )
 
-    res= agent.search("Can you find a document that uses chemicals for mining?")
+    res= agent.cosign_similarity("<PATH_TO_PDF>", k=3)
     print(res)
 ```
 
